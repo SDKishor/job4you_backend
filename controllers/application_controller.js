@@ -5,7 +5,6 @@ export const applyjob = async(req,res)=>{
   try {
     const userId=req.id;
     const jobId = req.params.id;
-    console.log(jobId);
     
     
     if(!jobId){
